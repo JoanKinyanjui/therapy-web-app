@@ -1,0 +1,50 @@
+.textH1{
+    color: #7CB7FD;
+    font-size: 32px;
+    font-weight: 500;
+    @media screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+.textH4{
+    color: #666565;
+    font-size: 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+    }
+}
+.textH6{
+    color: #B4B2B2;
+    font-size:15px;
+    font-weight: light;
+    @media screen and (max-width: 768px) {
+        font-size: 11px;
+    }
+}
+.textInput{
+    background-color: #F5F5F6;
+    border-radius: 4px;
+    padding: 5px 5px;
+    font-size: 15px;
+    color: #9f9e9e;
+    font-weight: light;
+    margin-bottom: 10px;
+    @media screen and (max-width: 768px) {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+.normalText{
+    color: #666565;
+    font-size: 16px;
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+.blueButtons{
+    background-color:  rgb(124, 183, 253);
+    width: 200px;
+    padding: 10px 5px;
+    border-radius: 115px;
+    color: white;
+}

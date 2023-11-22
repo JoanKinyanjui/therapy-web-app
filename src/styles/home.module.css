@@ -1,0 +1,61 @@
+.TherapyDiv1{
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0),transparent),url('https://images.pexels.com/photos/5996857/pexels-photo-5996857.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    border-radius: 10px;
+    @media screen and (max-width: 768px) {
+        border-radius: 50px;
+    }
+}
+.TherapyDiv2{
+    background-image:  linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0),transparent),url('https://images.pexels.com/photos/6579051/pexels-photo-6579051.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      position: relative;
+    border-radius: 10px;
+    @media screen and (max-width: 768px){
+       
+    }
+}
+.TherapyDiv3{
+    background-image:  linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0),transparent),url('https://images.pexels.com/photos/5896510/pexels-photo-5896510.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      position: relative;
+    border-radius: 10px;
+    @media screen and (max-width: 768px){
+       
+    }
+}
+.TherapyDiv4{
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0),transparent), url('https://images.pexels.com/photos/7658250/pexels-photo-7658250.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      position: relative;
+    border-radius: 10px;
+    @media screen and (max-width: 768px){
+       
+    }
+}
+.therapyDivContent{
+position: absolute;
+bottom: 5%;
+}
+
+.TopicTitle{
+    font-weight: medium;
+    color: white;
+    @media screen and (max-width: 768px){
+    }
+}
+.TopicDetail{
+    font-weight: normal;
+    color: #737373;
+    @media screen and (max-width: 768px){
+    }
+}

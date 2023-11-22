@@ -1,0 +1,11 @@
+.authContainer{
+position: absolute;
+background-color: white;
+top: 70%;
+left: 50%;
+transform: translateX(-50%);
+border-radius: 30px;
+@media screen and (max-width: 768px) {
+    top: 50%;
+}
+}

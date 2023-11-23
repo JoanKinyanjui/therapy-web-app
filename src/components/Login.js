@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className='relative'>
         <div>
-            <Image src='/assets/authbg.jpg' width={500} height={500} className='w-full  h-[400px] md:h-[600px] ' alt='background img'/>
+            <Image src='/assets/autbg.jpg' width={500} height={500} className='w-full  h-[100vh] md:h-[100vh] ' alt='background img'/>
         </div>
 
         <div className={`${authStyles.authContainer} w-5/6 mx-auto md:w-1/2 lg:w-[40%] xl:w-[35%] md:py-8 px-2 md:px-4`}>

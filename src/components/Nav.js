@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function Nav() {
@@ -9,11 +10,11 @@ function Nav() {
          </div>
 
         <div className='md:flex text-[14px] md:text-[16px] gap-[20px] items-center hidden'>
-            <p>Home</p>
-            <p>Schedule</p>
-            <p>Favourites</p>
-            <p>Peer to Peer Therapy</p>
-            <p>  <Image width={40} height={40} alt='logo' src='/assets/accountIcon.png' className='rounded-full md:w-[40px] md:h-[40px] border-2  border-[ #7CB7FD]' /></p>
+           <Link href='/'> <p>Home</p></Link>
+           <Link href="/schedule"> <p>Schedule</p></Link>
+            <Link href='/favourites'><p>Favourites</p></Link>
+          <Link href='/peer'>  <p>Peer to Peer Therapy</p></Link>
+          <Link href='/account'><p>  <Image width={40} height={40} alt='logo' src='/assets/accountIcon.png' className='rounded-full md:w-[40px] md:h-[40px] border-2  border-[ #7CB7FD]' /></p></Link>
         </div>
 
         <div className="navbar bg-base-100 md:hidden flex justify-end">
@@ -23,11 +24,11 @@ function Nav() {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
       </label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 absolute right-0">
-     <li><p>Home</p></li>
-          <li><p>Schedule</p></li>
-          <li><p>Favourites</p></li>
-          <li><p>Peer to Peer Therapy</p></li>
-<li><p>  <Image width={40} height={40} alt='logo' src='/assets/accountIcon.png' className='rounded-full md:w-[50px] md:h-[50px] border-2  border-[ #7CB7FD]' /></p></li>
+     <li> <Link href='/'> <p>Home</p></Link></li>
+          <li> <Link href="/schedule"> <p>Schedule</p></Link></li>
+          <li><Link href='/favourites'><p>Favourites</p></Link></li>
+          <li> <Link href='/peer'>  <p>Peer to Peer Therapy</p></Link></li>
+<li> <Link href='/account'><Image width={40} height={40} alt='logo' src='/assets/accountIcon.png' className='rounded-full md:w-[50px] md:h-[50px] border-2  border-[ #7CB7FD]' /></Link></li>
       </ul>
     </div>
   </div>

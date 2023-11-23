@@ -14,7 +14,7 @@ function Home() {
 </div>
 
 
-<div className=' py-4 md:py-12 w-10/12 lg:w-[70%] mx-auto bg-green-200] grid  grid-cols-1 md:grid-cols-2 gap-4  md:gap-8 px-4' >
+<div className=' py-4 md:py-12 w-10/12 lg:w-[70%] xl:w-[60%] mx-auto bg-green-200] grid  grid-cols-1 md:grid-cols-2 gap-4  md:gap-8 px-4' >
 
 <div className={`${styles.TherapyDiv1} md:h-[250px] h-[160px]`}>
 <div className={`${styles.therapyDivContent} flex justify-between  px-2 md:px-4 w-full items-center`}>

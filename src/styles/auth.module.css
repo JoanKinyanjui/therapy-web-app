@@ -1,11 +1,14 @@
-.authContainer{
-position: absolute;
-background-color: white;
-top: 70%;
-left: 50%;
-transform: translateX(-50%);
-border-radius: 30px;
-@media screen and (max-width: 768px) {
-    top: 50%;
+.authContainer {
+    position: absolute;
+    background-color: white;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's dimensions */
+    border-radius: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .authContainer {
+        top: 50%; /* Keep centered vertically on smaller screens */
+    }
 }

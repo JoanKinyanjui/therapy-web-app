@@ -1,0 +1,58 @@
+.tabZ input[type="radio"]:checked + .tab {
+    background-color: red; /* Replace with your desired color */
+  }
+  .joinButton{
+    /* padding: 10px 40px; */
+    width: 100px;
+    height:40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+  }
+  .scheduleButton{
+    border: 1px solid rgb(167, 166, 166);
+    width: 100px;
+    height:40px;
+    border-radius: 50px;
+    color: rgb(71, 71, 71);
+    border-radius: 50px;
+}
+.joinButton2{
+    /* padding: 10px 40px; */
+    width: 140px;
+    height:40px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+  }
+  .scheduleButton2{
+    border: 1px solid rgb(167, 166, 166);
+    width: 140px;
+    height:40px;
+    border-radius: 50px;
+    color: rgb(71, 71, 71);
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .scheduleButton {
+        width: 80px;
+        height: 35px;
+    }
+    .joinButton{
+        width: 80px;
+        height:35px;
+}
+}
+@media screen and (max-width: 768px) {
+    .scheduleButton2 {
+        width: 120px;
+        height: 35px;
+    }
+    .joinButton2{
+        width: 120px;
+        height:35px;
+}
+}

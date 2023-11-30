@@ -139,21 +139,21 @@ function PeerToPeer() {
   
             <div className="flex justify-between pt-2">
               <div className="flex gap-[5px] md:[20px] items-center">
-                  <Image src='/assets/love.png' alt="img" width={25} height={25}  className="md:w-[40px] md:h-[40px]"/>
+                  <Image src='/assets/love.png' alt="img" width={25} height={25}  className="md:w-[35px] md:h-[35px]"/>
                   <p className="text-[12px] md:text-[15px] text-gray-600">300</p>
               </div> 
               <div className="flex gap-[5px] md:[20px] items-center">
-                  <Image src='/assets/comments.png' alt="img" width={25} height={25}  className="md:w-[40px] md:h-[40px]"/>
+                  <Image src='/assets/comments.png' alt="img" width={25} height={25}  className="md:w-[35px] md:h-[35px]"/>
                   <p className="text-[12px] md:text-[15px] text-gray-600">20</p>
               </div> 
               <div className="flex gap-[5px] md:[20px] items-center">
-                  <Image src='/assets/forward.png' alt="img" width={25} height={25}  className="md:w-[40px] md:h-[40px]"/>
+                  <Image src='/assets/forward.png' alt="img" width={25} height={25}  className="md:w-[35px] md:h-[35px]"/>
                   <p className="text-[12px] md:text-[15px] text-gray-600">70</p>
               </div> 
               {(item.status=== "closed")? <div className="flex gap-[5px] md:[20px] items-center">
-                  <Image src='/assets/notify.png' alt="img" width={25} height={25}  className="md:w-[40px] md:h-[40px]"/>
+                  <Image src='/assets/notify.png' alt="img" width={25} height={25}  className="md:w-[35px] md:h-[35px]"/>
               </div> :<div className="flex gap-[5px] md:[20px] items-center">
-                  <Image src='/assets/add.png' alt="img" width={25} height={25}  className="md:w-[40px] md:h-[40px]"/>
+                  <Image src='/assets/add.png' alt="img" width={25} height={25}  className="md:w-[35px] md:h-[35px]"/>
               </div> }
             </div>
           </div>

@@ -1,4 +1,4 @@
-import Home from '@/components/Home'
+import Home from '@/components/Home';
 import Nav from '@/components/Nav'
 import React from 'react'
 
